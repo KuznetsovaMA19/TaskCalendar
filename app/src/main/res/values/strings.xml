@@ -3,4 +3,5 @@
     <string name="task1_title">Купить продукты</string>
     <string name="task2_title">Сдать отчёт</string>
     <string name="task3_title">Позвонить маме</string>
+    <string name="cbDone">Выполнено</string>
 </resources>
