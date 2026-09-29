@@ -8,7 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class TaskAdapter(
-    private val tasks: List<Task>
+    private val tasks: List<Task>,
+    private val onItemClick: (Task) -> Unit
 ) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
 
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -28,6 +29,9 @@ class TaskAdapter(
         holder.title.text = task.title
         holder.date.text = task.date
         holder.done.isChecked = task.isDone
+        holder.itemView.setOnClickListener {
+            onItemClick(task)
+        }
     }
 
     override fun getItemCount(): Int {
