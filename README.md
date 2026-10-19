@@ -19,10 +19,10 @@
 
 ## Отчеты и скриншоты (Этапы 1-4)
 
-- [Отчет по этапам 1-3](reports/reports.md)
+- [Отчет по этапам 1-4](reports/reports.md)
 - [Схема экранов](reports/Shema.jpg)
 - [Схема архитектуры](reports/architecture.png)
 - **Скриншоты работы приложения:**
     - Главный экран (список из базы данных): ![Главный экран](reports/screen_main.png)
     - Экран деталей задачи: ![Экран деталей](reports/screen_detail1.png)
-    - Скриншот повернутого экрана [Повернутый экран](reports/screen_mvvm_landscape.png)
+    - Скриншот повернутого экрана ![Повернутый экран](reports/screen_mvvm_landscape.png)
